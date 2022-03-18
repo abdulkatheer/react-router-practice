@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: "./src/index.js",
+    main: "./src/index",
   },
   resolve: {
     modules: [__dirname, "src", "node_modules"],
