@@ -20,7 +20,7 @@ const App = () => (
         <Route path="/posts/:year?/:month?" component={Posts} />
         <Route path="/admin" component={Dashboard} />
         <Route path="/not-found" component={NotFound} />
-        <Route path="/" exact component={Home} />
+        <Route path="/" component={Home} />
         <Redirect to="/not-found" />
       </Switch>
     </div>
